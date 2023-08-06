@@ -1,0 +1,138 @@
+main {
+    .section_hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 25px;
+        height: 236px;
+
+        .div_txt-hero {
+            .h1 {
+                color: white;
+                font-family: $fuente-titulos;
+                font-size: 3.4em;
+                font-weight: 700;
+            }
+        }
+    }
+
+    .section_about-banner {
+        background-color: $color-principal;
+        color: white;
+        padding: 60px;
+
+        p {
+            margin: auto;
+            max-width: 850px;
+            font-size: .857142em;
+            margin-bottom: 1rem;
+            font-weight: 300;
+        }
+    }
+
+    .section_cards-about {
+        justify-content: center;
+        gap: 45px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        .card{
+            .card-body{
+                p{
+                    font-size: .9rem;
+                }
+            }
+        }
+
+        .btn-primary {
+            background-color: $color-principal !important;
+
+            &:hover {
+                background-color: white !important;
+                color: $color-principal !important;
+                font-weight: bold;
+                font-size: 15px;
+            }
+        }
+
+        div {
+            h5 {
+                font-family: $fuente-titulos;
+                font-weight: 700;
+                color: $color-principal;
+                font-size: 1em;
+            }
+
+            p {
+                min-height: 145px;
+            }
+        }
+    }
+
+    .section_baja {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 25px;
+
+        .div_txt-baja {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            .h2 {
+                color: $color-principal;
+                font-family: $fuente-titulos;
+                font-size: 1.4em;
+                font-weight: 700;
+                margin: auto;
+            }
+
+            button {
+                display: inline-block;
+                border-radius: 6px;
+                background-color: $color-principal;
+                border: white .1px outset;
+                color: #FFFFFF;
+                text-align: center;
+                font-size: 17px;
+                padding: 6px;
+                width: 130px;
+                transition: all 0.5s;
+                cursor: pointer;
+                margin: auto;
+
+                span {
+                    cursor: pointer;
+                    display: inline-block;
+                    position: relative;
+                    transition: 0.5s;
+
+                    &:after {
+                        content: '»';
+                        position: absolute;
+                        opacity: 0;
+                        top: 0;
+                        right: -15px;
+                        transition: 0.5s;
+                    }
+                }
+
+                &:hover {
+                    span {
+                        padding-right: 15px;
+
+                        &:after {
+                            opacity: 1;
+                            right: 0;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}

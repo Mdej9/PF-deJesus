@@ -1,0 +1,589 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 15px; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+.button_banner {
+  display: inline-block;
+  border-radius: 6px;
+  background-color: #171669;
+  border: white 0.1px outset;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 17px;
+  padding: 6px;
+  width: 130px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px; }
+  .button_banner span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s; }
+    .button_banner span:after {
+      content: '»';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -15px;
+      transition: 0.5s; }
+  .button_banner:hover span {
+    padding-right: 15px; }
+    .button_banner:hover span:after {
+      opacity: 1;
+      right: 0; }
+
+header nav div .nav-titulo {
+  font-family: "Lugrasimo", cursive; }
+
+header nav .container-fluid .navbar-collapse {
+  justify-content: flex-end; }
+
+header nav .container-fluid .navbar-toggler {
+  background-color: white !important; }
+
+header nav .container-fluid .dropdown-menu {
+  background-color: white !important; }
+  header nav .container-fluid .dropdown-menu .dropdown-item {
+    color: #171669 !important; }
+
+header nav .container-fluid a {
+  color: white !important; }
+
+header .bg-body-tertiary {
+  background-color: #171669 !important; }
+
+main header .navbar .container-fluid .navbar-toggler {
+  background-color: #171669 !important; }
+
+main div .carousel-inner div img {
+  max-height: 550px; }
+
+main div .carousel-inner p {
+  font-size: 16px; }
+
+main .section_banner-top {
+  display: flex;
+  flex-direction: column;
+  background-color: #171669;
+  padding: 15px; }
+  main .section_banner-top .div_banner-top {
+    text-align: center; }
+    main .section_banner-top .div_banner-top .button_banner {
+      display: inline-block;
+      border-radius: 6px;
+      background-color: #171669;
+      border: white .1px outset;
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 17px;
+      padding: 6px;
+      width: 130px;
+      transition: all 0.5s;
+      cursor: pointer;
+      margin: 5px; }
+      main .section_banner-top .div_banner-top .button_banner span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s; }
+        main .section_banner-top .div_banner-top .button_banner span:after {
+          content: '»';
+          position: absolute;
+          opacity: 0;
+          top: 0;
+          right: -15px;
+          transition: 0.5s; }
+      main .section_banner-top .div_banner-top .button_banner:hover span {
+        padding-right: 15px; }
+        main .section_banner-top .div_banner-top .button_banner:hover span:after {
+          opacity: 1;
+          right: 0; }
+    main .section_banner-top .div_banner-top p {
+      color: white; }
+
+main .section_banner-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e0e0e0;
+  padding: 15px;
+  margin-bottom: 15px; }
+  main .section_banner-bottom p {
+    margin-top: auto; }
+
+main hr {
+  height: 1px;
+  opacity: .5;
+  max-width: 896px;
+  margin: 0 auto -2px;
+  padding: 15px; }
+
+main .encabezado-cards strong {
+  font-size: 13px;
+  font-family: "Montserrat", sans-serif; }
+
+main .encabezado-cards h3 {
+  color: #171669;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif; }
+
+main .section_cards {
+  justify-content: center;
+  gap: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-bottom: 15px; }
+  main .section_cards .card .card-body {
+    text-align: center; }
+  main .section_cards .btn-primary {
+    background-color: #171669 !important; }
+    main .section_cards .btn-primary:hover {
+      background-color: white !important;
+      color: #171669 !important;
+      font-weight: bold;
+      font-size: 15px; }
+  main .section_cards div h5 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #171669;
+    font-size: 1em; }
+  main .section_cards div p {
+    min-height: 150px; }
+
+main .section_banner-bottom2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #171669;
+  padding: 15px; }
+  main .section_banner-bottom2 p {
+    color: white; }
+  main .section_banner-bottom2 .button_banner-bottom {
+    display: inline-block;
+    border-radius: 6px;
+    background-color: #171669;
+    border: white .1px outset;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 17px;
+    padding: 6px;
+    width: 130px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: auto; }
+    main .section_banner-bottom2 .button_banner-bottom span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s; }
+      main .section_banner-bottom2 .button_banner-bottom span:after {
+        content: '»';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -15px;
+        transition: 0.5s; }
+    main .section_banner-bottom2 .button_banner-bottom:hover span {
+      padding-right: 15px; }
+      main .section_banner-bottom2 .button_banner-bottom:hover span:after {
+        opacity: 1;
+        right: 0; }
+
+main .section_banner-bottom3 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 15px; }
+  main .section_banner-bottom3 p {
+    margin-top: auto; }
+  main .section_banner-bottom3 .button_banner-bottom {
+    display: inline-block;
+    border-radius: 6px;
+    background-color: #171669;
+    border: white .1px outset;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 17px;
+    padding: 6px;
+    width: 130px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: auto; }
+    main .section_banner-bottom3 .button_banner-bottom span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s; }
+      main .section_banner-bottom3 .button_banner-bottom span:after {
+        content: '»';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -15px;
+        transition: 0.5s; }
+    main .section_banner-bottom3 .button_banner-bottom:hover span {
+      padding-right: 15px; }
+      main .section_banner-bottom3 .button_banner-bottom:hover span:after {
+        opacity: 1;
+        right: 0; }
+
+main .section_app {
+  margin: 25px; }
+  main .section_app .div_app {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    main .section_app .div_app .div_img-app img {
+      width: 100%; }
+  main .section_app .div_buttons-app button {
+    display: inline-block;
+    border-radius: 6px;
+    background-color: #171669;
+    border: white .1px outset;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 17px;
+    padding: 6px;
+    width: 130px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: auto; }
+    main .section_app .div_buttons-app button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s; }
+      main .section_app .div_buttons-app button span:after {
+        content: '»';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -15px;
+        transition: 0.5s; }
+    main .section_app .div_buttons-app button:hover span {
+      padding-right: 15px; }
+      main .section_app .div_buttons-app button:hover span:after {
+        opacity: 1;
+        right: 0; }
+
+@media (min-width: 767px) {
+  main .section_banner-top {
+    display: flex;
+    flex-direction: row; }
+  main .section_banner-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+    main .section_banner-bottom .button_banner {
+      margin: 5px; } }
+
+footer .bottom-footer {
+  background-color: #171669; }
+  footer .bottom-footer .b-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    footer .bottom-footer .b-footer h3 {
+      color: white;
+      font-family: "Montserrat", sans-serif;
+      font-size: 2em; }
+    footer .bottom-footer .b-footer .ul-footer {
+      display: flex;
+      margin-bottom: auto; }
+      footer .bottom-footer .b-footer .ul-footer li {
+        list-style: none;
+        margin: 25px; }
+  footer .bottom-footer .ul-b-footer {
+    display: flex;
+    justify-content: space-around; }
+    footer .bottom-footer .ul-b-footer a {
+      text-decoration: none;
+      color: white; }
+    footer .bottom-footer .ul-b-footer li {
+      list-style: none;
+      color: #c1b9b9;
+      font-size: 15px;
+      font-weight: 100; }
+
+main .section_hero {
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+main .section_pempresas-banner {
+  background-color: gray;
+  color: black;
+  padding: 60px; }
+  main .section_pempresas-banner p {
+    max-width: 850px;
+    margin: auto; }
+
+main .h2_pempresas {
+  padding: 15px; }
+  main .h2_pempresas h2 {
+    color: #171669;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 35px; }
+
+main .section_cards-pempresas {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  justify-items: center;
+  padding: 25px;
+  text-align: center; }
+  main .section_cards-pempresas .card .card-body p {
+    font-size: .9rem; }
+  main .section_cards-pempresas .btn-primary {
+    background-color: #171669 !important; }
+    main .section_cards-pempresas .btn-primary:hover {
+      background-color: white !important;
+      color: #171669 !important;
+      font-weight: bold;
+      font-size: 15px; }
+  main .section_cards-pempresas div h5 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #171669;
+    font-size: 1em; }
+  main .section_cards-pempresas div p {
+    min-height: 145px; }
+
+@media (min-width: 768px) {
+  main .section_cards-pempresas {
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media (min-width: 1024px) {
+  main .section_cards-pempresas {
+    grid-template-columns: repeat(3, 1fr); } }
+
+@media (min-width: 1135px) {
+  main .section_cards-pempresas {
+    grid-template-columns: repeat(4, 1fr); } }
+
+main .section_hero {
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+main .section_ppersonasypro-banner {
+  background-color: gray;
+  color: black;
+  padding: 60px; }
+  main .section_ppersonasypro-banner p {
+    max-width: 850px;
+    margin: auto; }
+
+main .h2_personas {
+  padding: 15px; }
+  main .h2_personas h2 {
+    color: #171669;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 35px; }
+
+main .h2_pempresas {
+  padding: 15px; }
+  main .h2_pempresas h2 {
+    color: #171669;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 35px; }
+
+main .section_cards-ppersonasypro {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  justify-items: center;
+  padding: 25px;
+  text-align: center; }
+  main .section_cards-ppersonasypro .card .card-body p {
+    font-size: .9rem; }
+  main .section_cards-ppersonasypro .btn-primary {
+    background-color: #171669 !important; }
+    main .section_cards-ppersonasypro .btn-primary:hover {
+      background-color: white !important;
+      color: #171669 !important;
+      font-weight: bold;
+      font-size: 15px; }
+  main .section_cards-ppersonasypro div h5 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #171669;
+    font-size: 1em; }
+  main .section_cards-ppersonasypro div p {
+    min-height: 145px; }
+
+@media (min-width: 768px) {
+  main .section_cards-ppersonasypro {
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media (min-width: 1024px) {
+  main .section_cards-ppersonasypro {
+    grid-template-columns: repeat(3, 1fr); } }
+
+@media (min-width: 1135px) {
+  main .section_cards-ppersonasypro {
+    grid-template-columns: repeat(4, 1fr); } }
+
+main .section_hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 25px;
+  height: 236px; }
+  main .section_hero .div_txt-hero .h1 {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.4em;
+    font-weight: 700; }
+
+main .section_about-banner {
+  background-color: #171669;
+  color: white;
+  padding: 60px; }
+  main .section_about-banner p {
+    margin: auto;
+    max-width: 850px;
+    font-size: .857142em;
+    margin-bottom: 1rem;
+    font-weight: 300; }
+
+main .section_cards-about {
+  justify-content: center;
+  gap: 45px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px; }
+  main .section_cards-about .card .card-body p {
+    font-size: .9rem; }
+  main .section_cards-about .btn-primary {
+    background-color: #171669 !important; }
+    main .section_cards-about .btn-primary:hover {
+      background-color: white !important;
+      color: #171669 !important;
+      font-weight: bold;
+      font-size: 15px; }
+  main .section_cards-about div h5 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #171669;
+    font-size: 1em; }
+  main .section_cards-about div p {
+    min-height: 145px; }
+
+main .section_baja {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 25px; }
+  main .section_baja .div_txt-baja {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
+    main .section_baja .div_txt-baja .h2 {
+      color: #171669;
+      font-family: "Montserrat", sans-serif;
+      font-size: 1.4em;
+      font-weight: 700;
+      margin: auto; }
+    main .section_baja .div_txt-baja button {
+      display: inline-block;
+      border-radius: 6px;
+      background-color: #171669;
+      border: white .1px outset;
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 17px;
+      padding: 6px;
+      width: 130px;
+      transition: all 0.5s;
+      cursor: pointer;
+      margin: auto; }
+      main .section_baja .div_txt-baja button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s; }
+        main .section_baja .div_txt-baja button span:after {
+          content: '»';
+          position: absolute;
+          opacity: 0;
+          top: 0;
+          right: -15px;
+          transition: 0.5s; }
+      main .section_baja .div_txt-baja button:hover span {
+        padding-right: 15px; }
+        main .section_baja .div_txt-baja button:hover span:after {
+          opacity: 1;
+          right: 0; }
+
+main .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; }
+  main .container .header {
+    text-align: center;
+    margin-bottom: 2rem; }
+    main .container .header h1 {
+      font-family: "Montserrat", sans-serif;
+      color: #171669;
+      font-size: 4em; }
+  main .container .content {
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center; }
+    main .container .content label {
+      color: #171669;
+      font-size: 1em; }
+    main .container .content button {
+      display: inline-block;
+      border-radius: 6px;
+      background-color: #171669;
+      border: white .1px outset;
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 17px;
+      padding: 6px;
+      width: 130px;
+      transition: all 0.5s;
+      cursor: pointer;
+      margin: auto; }
+      main .container .content button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s; }
+        main .container .content button span:after {
+          content: '»';
+          position: absolute;
+          opacity: 0;
+          top: 0;
+          right: -15px;
+          transition: 0.5s; }
+      main .container .content button:hover span {
+        padding-right: 15px; }
+        main .container .content button:hover span:after {
+          opacity: 1;
+          right: 0; }

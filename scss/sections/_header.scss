@@ -1,0 +1,35 @@
+header{
+    nav{
+        div{
+            .nav-titulo{
+                font-family: $fuente-header1;
+            }
+        }
+        .container-fluid{
+            .navbar-collapse{
+                justify-content: flex-end;
+            }
+            .navbar-toggler{
+                background-color: white!important;
+            }
+            .dropdown-menu{
+                background-color: white!important;
+                .dropdown-item{
+                    color: $color-principal!important;
+                }
+            }
+            a{
+                color: white!important;
+            }
+        }
+    }
+    .bg-body-tertiary{
+        background-color: $color-principal!important;
+    }
+}
+
+
+
+
+
+
