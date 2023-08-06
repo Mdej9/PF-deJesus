@@ -133,6 +133,12 @@ main .encabezado-cards strong {
   font-size: 13px;
   font-family: "Montserrat", sans-serif; }
 
+main .encabezado-cards h1 {
+  color: #171669;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif; }
+
 main .encabezado-cards h3 {
   color: #171669;
   font-size: 24px;

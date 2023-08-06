@@ -104,7 +104,12 @@ main {
             font-size: 13px;
             font-family: $fuente-titulos;
         }
-
+        h1{
+            color: $color-principal;
+            font-size: 24px;
+            font-weight: 700;
+            font-family: $fuente-titulos;
+        }
         h3 {
             color: $color-principal;
             font-size: 24px;
